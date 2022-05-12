@@ -1,6 +1,7 @@
 ### SpringBoot + JSP Starter Kit
 
 ### Chapter-01 Signup Page
+In this chapter you will learn about creating an easy Signup page with Bootstrap and understanding communication from Controller to JSP and also JSP to Controller.
 * Get Example SignUp page from https://mdbootstrap.com/docs/standard/extended/registration/ and put it in signup.jsp
 Also add navbar item from : https://getbootstrap.com/docs/4.0/components/navbar/#color-schemes
 * Add more dependencies to pom 
