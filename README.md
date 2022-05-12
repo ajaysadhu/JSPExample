@@ -1,5 +1,31 @@
 ### SpringBoot + JSP Starter Kit
 
+### Chapter-01 Signup Page
+* Get Example SignUp page from https://mdbootstrap.com/docs/standard/extended/registration/ and put it in signup.jsp
+Also add navbar item from : https://getbootstrap.com/docs/4.0/components/navbar/#color-schemes
+* Add more dependencies to pom 
+  1. Used to validate Beans (RegisterBean - SignUp details)
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-validation</artifactId>
+</dependency>
+```
+
+2. JSP related tags to loop through items.
+```xml
+<!-- JSTL -->
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>jstl</artifactId>
+</dependency>
+<dependency>
+    <groupId>taglibs</groupId>
+    <artifactId>standard</artifactId>
+    <version>1.1.2</version>
+</dependency>
+```
+* Added `/registerUser` POST method which takes SignUp form details , verifies the data and upon error redirects to signup page and upon sucess redirects to index page.
 #### This project shows step-by-step guide to start a JSP Project with SpringBoot.
 
 * Follow the instructions to start from scratch.
