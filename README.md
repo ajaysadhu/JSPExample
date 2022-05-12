@@ -25,7 +25,8 @@ Also add navbar item from : https://getbootstrap.com/docs/4.0/components/navbar/
     <version>1.1.2</version>
 </dependency>
 ```
-* Added `/registerUser` POST method which takes SignUp form details , verifies the data and upon error redirects to signup page and upon sucess redirects to index page.
+* Added `/registerUser` POST method which takes SignUp form details , verifies the data and upon error redirects to signup page and upon success redirects to index page.
+* Test Signup page at http://localhost:8080/signup
 ### STARTER KIT: 
 #### This project shows step-by-step guide to start a JSP Project with SpringBoot.
 
@@ -52,7 +53,7 @@ server.servlet.encoding.enabled=true
 server.servlet.encoding.force=true  
 
 * Create a basic Controller and jsp page as shown in the code.
-* Then Test the App after successful build and Execution as below:
+* Then Test the App at http://localhost:8080/name after successful build and Execution as below:
 
 ![ViewJSP](./docs/Successful_jsp.png)
 
