@@ -26,6 +26,7 @@ Also add navbar item from : https://getbootstrap.com/docs/4.0/components/navbar/
 </dependency>
 ```
 * Added `/registerUser` POST method which takes SignUp form details , verifies the data and upon error redirects to signup page and upon sucess redirects to index page.
+### STARTER KIT: 
 #### This project shows step-by-step guide to start a JSP Project with SpringBoot.
 
 * Follow the instructions to start from scratch.
